@@ -1,9 +1,9 @@
-SELECT * FROM Mark WHERE mark > 6 ORDER BY mark DESC;
+SELECT * FROM mark WHERE mark > 6 ORDER BY mark DESC;
 
 SELECT * FROM payment WHERE amount < 300 ORDER BY amount;
 
-SELECT * FROM PaymentType ORDER BY `name` ;
+SELECT * FROM paymentType ORDER BY `name` ;
 
-SELECT * FROM Student ORDER BY `name` DESC;
+SELECT * FROM student ORDER BY `name` DESC;
 
-SELECT * FROM Student JOIN Payment ON Student.id = Payment.student_id WHERE Payment.amount > 1000 ORDER BY birthday ;
+SELECT * FROM student JOIN payment ON student.id = payment.student_id WHERE payment.amount > 1000 ORDER BY birthday ;

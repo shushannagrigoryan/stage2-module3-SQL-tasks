@@ -60,3 +60,6 @@ INSERT INTO Mark(`id`, student_id , subject_id, mark ) VALUES (8, 12, 9, 8);
 
 
 
+
+
+

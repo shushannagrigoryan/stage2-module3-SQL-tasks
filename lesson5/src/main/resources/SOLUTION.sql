@@ -1,14 +1,14 @@
-SELECT * FROM Payment WHERE amount>=500;
+SELECT * FROM payment WHERE amount>=500;
 
-SELECT * FROM Student WHERE birthday < (SELECT DATEADD(year, -20, GETDATE()) AS DateAdd);
+SELECT * FROM student WHERE birthday < (SELECT DATEADD(year, -20, GETDATE()) AS DateAdd);
 
-SELECT * FROM Student WHERE `group` = 10 AND (birthday > (SELECT DATEADD(year, -20, GETDATE()) AS DateAdd));
+SELECT * FROM student WHERE groupname = 10 AND (birthday > (SELECT DATEADD(year, -20, GETDATE()) AS DateAdd));
 
-SELECT * FROM Student WHERE `name` = 'Mike' OR `group` IN (4,5,6);
+SELECT * FROM student WHERE `name` = 'Mike' OR groupname IN (4,5,6);
 
-SELECT * FROM Payment WHERE GETDATE() < DATEADD(month, 8, payment_date);
+SELECT * FROM payment WHERE GETDATE() < DATEADD(month, 8, payment_date);
 
-SELECT * FROM Student WHERE `name` LIKE 'A%';
+SELECT * FROM student WHERE `name` LIKE 'A%';
 
-SELECT * FROM Student WHERE (`name` = 'Roxi' AND group = 4) OR (`name` = 'Tallie' AND group = 9);
+SELECT * FROM student WHERE (`name` = 'Roxi' AND groupname = 4) OR (`name` = 'Tallie' AND groupname = 9);
 
