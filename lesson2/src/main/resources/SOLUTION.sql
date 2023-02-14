@@ -64,12 +64,11 @@ insert into payment (type_id, amount, payment_date, student_id) values (1, 50.20
 -- INSERT INTO mark(`id`, student_id , subject_id, mark ) VALUES (5, 9, 5, 9);
 
 
-insert into mark (student_id, subject_id, mark) values (2, 1, 8);
-insert into mark (student_id, subject_id, mark) values (4, 4, 5);
-insert into mark (student_id, subject_id, mark) values (5, 3, 9);
-insert into mark (student_id, subject_id, mark) values (8, 1, 6);
-insert into mark (student_id, subject_id, mark) values (9, 5, 9);
-
+INSERT INTO mark (student_id, subject_id, mark) values (2, 1, 8);
+INSERT INTO mark (student_id, subject_id, mark) values (4, 4, 5);
+INSERT INTO mark (student_id, subject_id, mark) values (5, 3, 9);
+INSERT INTO mark (student_id, subject_id, mark) values (8, 6, 4);
+INSERT INTO mark (student_id, subject_id, mark) values (9, 5, 9);
 
 
 -- INSERT INTO mark(`id`, student_id , subject_id, mark ) VALUES (6, 10, 7, 5);
