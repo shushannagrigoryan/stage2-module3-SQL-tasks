@@ -1,6 +1,6 @@
-CREATE TABLE Student(`id` BIGINT  PRIMARY KEY , `name` VARCHAR(20), `birthday` DATE, `group` INT);
+CREATE TABLE Student(`id` BIGINT  PRIMARY KEY , `name` VARCHAR(20), birthday DATE, `group` INT);
 
-CREATE TABLE Subject(`id` BIGINT  PRIMARY KEY, `name` VARCHAR(20), `description` VARCHAR(255), `grade` INT);
+CREATE TABLE Subject(`id` BIGINT  PRIMARY KEY, `name` VARCHAR(20), description VARCHAR(255), `grade` INT);
 
 CREATE TABLE PaymentType(`id` BIGINT PRIMARY KEY, `name` VARCHAR(20));
 
