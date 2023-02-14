@@ -40,3 +40,4 @@ CREATE TABLE payment
     CONSTRAINT payment_studentid FOREIGN KEY (student_id) REFERENCES student(id)
 );
 
+

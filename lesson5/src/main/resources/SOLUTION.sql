@@ -14,3 +14,5 @@ SELECT * FROM student WHERE (name LIKE ('Roxi %') AND groupnumber = 4) OR (name 
 
 
 
+
+

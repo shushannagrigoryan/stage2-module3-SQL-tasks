@@ -5,4 +5,3 @@ SELECT student.id, student.name FROM student JOIN mark ON student.id = mark.stud
 SELECT student.id, student.name  FROM student JOIN (SELECT student_id  FROM payment WHERE payment_date > '2019-01-01' AND payment_date < '2019-12-31' GROUP BY  student_id HAVING  COUNT(payment_date) > 2) AS s ON student.id = s.student_id;
 
 
-
