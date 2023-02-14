@@ -27,8 +27,10 @@ INSERT INTO subject (name, grade) VALUES ('PE', 3);
 INSERT INTO subject (name, grade) VALUES ('Math', 3);
 INSERT INTO subject (name, grade) VALUES ('Science ', 4);
 INSERT INTO subject (name, grade) VALUES ('IT', 4);
-INSERT INTO subject (name, grade) VALUES ('Physics ', 5);
+INSERT INTO subject (name, grade) VALUES ('Physics', 5);
 INSERT INTO subject (name, grade) VALUES ('Dance', 5);
+
+
 
 INSERT INTO paymenttype (name) VALUES('DAILY');
 INSERT INTO paymenttype (name) VALUES('WEEKLY');
