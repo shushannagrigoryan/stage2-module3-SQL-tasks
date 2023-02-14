@@ -31,9 +31,9 @@ INSERT INTO subject (name, grade) VALUES ('Physics ', 5);
 INSERT INTO subject (name, grade) VALUES ('Dance', 5);
 
 INSERT INTO paymenttype (name) VALUES('DAILY');
-INSERT INTO paymenttype (name) VALUES('YEAR');
 INSERT INTO paymenttype (name) VALUES('WEEKLY');
 INSERT INTO paymenttype (name) VALUES('MONTHLY');
+
 
 
 
@@ -50,15 +50,14 @@ INSERT INTO paymenttype (name) VALUES('MONTHLY');
 
 
 
-INSERT INTO payment (type_id, amount, payment_date, student_id) VALUES (3, 50.20, '2017-05-13 10:48:47', 1);
-INSERT INTO payment (type_id, amount, payment_date, student_id) VALUES (4, 80.50, '2017-05-13 10:48:47', 4);
-INSERT INTO payment (type_id, amount, payment_date, student_id) VALUES (3, 70.30, '2017-05-13 10:48:47', 7);
+INSERT INTO payment (type_id, amount, payment_date, student_id) VALUES (2, 50.20, '2017-05-13 10:48:47', 1);
+INSERT INTO payment (type_id, amount, payment_date, student_id) VALUES (3, 80.50, '2017-05-13 10:48:47', 4);
+INSERT INTO payment (type_id, amount, payment_date, student_id) VALUES (2, 70.30, '2017-05-13 10:48:47', 7);
 INSERT INTO payment (type_id, amount, payment_date, student_id) VALUES (1, 20.20, '2017-05-13 10:48:47', 5);
 INSERT INTO payment (type_id, amount, payment_date, student_id) VALUES (1, 50.20, '2017-05-13 10:48:47', 2);
 INSERT INTO payment (type_id, amount, payment_date, student_id) VALUES (2, 50.20, '2017-05-13 10:48:47', 6);
 INSERT INTO payment (type_id, amount, payment_date, student_id) VALUES (3, 50.20, '2017-05-13 10:48:47', 3);
 INSERT INTO payment (type_id, amount, payment_date, student_id) VALUES (1, 50.20, '2017-05-13 10:48:47', 7);
-
 
 
 
