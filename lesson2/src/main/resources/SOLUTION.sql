@@ -1,20 +1,20 @@
-INSERT INTO Student (id, name, birthday, group) VALUES (1, 'John', '1990-05-03', 1);
-INSERT INTO Student (id, name, birthday, group) VALUES (2, 'Chris', '1991-06-04', 1);
-INSERT INTO Student (id, name, birthday, group) VALUES (3, 'Carl', '1992-07-05', 1);
+INSERT INTO Student (id, name, birthday, `group`) VALUES (1, 'John', '1990-05-03', 1);
+INSERT INTO Student (id, name, birthday, `group`) VALUES (2, 'Chris', '1991-06-04', 1);
+INSERT INTO Student (id, name, birthday, `group`) VALUES (3, 'Carl', '1992-07-05', 1);
 
-INSERT INTO Student (id, name, birthday, group) VALUES (4, 'Oliver', '1990-07-03', 2);
-INSERT INTO Student (id, name, birthday, group) VALUES (5, 'James', '1990-07-03', 2);
-INSERT INTO Student (id, name, birthday, group) VALUES (6, 'Lucas', '1990-07-03', 2);
-INSERT INTO Student (id, name, birthday, group) VALUES (7, 'Henry', '1991-07-03', 2);
+INSERT INTO Student (id, name, birthday, `group`) VALUES (4, 'Oliver', '1990-07-03', 2);
+INSERT INTO Student (id, name, birthday, `group`) VALUES (5, 'James', '1990-07-03', 2);
+INSERT INTO Student (id, name, birthday, `group`) VALUES (6, 'Lucas', '1990-07-03', 2);
+INSERT INTO Student (id, name, birthday, `group`) VALUES (7, 'Henry', '1991-07-03', 2);
 
-INSERT INTO Student (id, name, birthday, group) VALUES (8, 'Jacob', '1980-07-14', 3);
-INSERT INTO Student (id, name, birthday, group) VALUES (9, 'Logan', '1995-07-03', 3);
+INSERT INTO Student (id, name, birthday, `group`) VALUES (8, 'Jacob', '1980-07-14', 3);
+INSERT INTO Student (id, name, birthday, `group`) VALUES (9, 'Logan', '1995-07-03', 3);
 
-INSERT INTO Student (id, name, birthday, group) VALUES (10, 'Jack', '1990-07-03', 4);
-INSERT INTO Student (id, name, birthday, group) VALUES (11, 'Kate', '1999-07-03', 4);
+INSERT INTO Student (id, name, birthday, `group`) VALUES (10, 'Jack', '1990-07-03', 4);
+INSERT INTO Student (id, name, birthday, `group`) VALUES (11, 'Kate', '1999-07-03', 4);
 
-INSERT INTO Student (id, name, birthday, group) VALUES (12, 'Mike', '1997-07-03', 5);
-INSERT INTO Student (id, name, birthday, group) VALUES (13, 'John', '1993-07-03', 5);
+INSERT INTO Student (id, name, birthday, `group`) VALUES (12, 'Mike', '1997-07-03', 5);
+INSERT INTO Student (id, name, birthday, `group`) VALUES (13, 'John', '1993-07-03', 5);
 
 INSERT INTO Subject (id, name, grade) VALUES (1, 'Art', 1);
 INSERT INTO Subject (id, name, grade) VALUES (2, 'Music', 1);
