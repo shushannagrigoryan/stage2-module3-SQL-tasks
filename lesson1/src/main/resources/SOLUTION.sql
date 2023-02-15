@@ -19,7 +19,7 @@ CREATE TABLE mark
     student_id BIGINT,
     subject_id BIGINT,
     mark INT NOT NULL,
-    FOREIGN KEY(student_id) REFERENCES student(id),
+    CONSTRAINT  mark_studentid FOREIGN KEY(student_id) REFERENCES student(id) ON DELETE CASCADE ,
     FOREIGN KEY(subject_id) REFERENCES subject(id)
 );
 
@@ -36,8 +36,8 @@ CREATE TABLE payment
     amount decimal NOT NULL,
     payment_date TIMESTAMP  NOT NULL,
     student_id BIGINT NOT NULL,
-    FOREIGN KEY(type_id) REFERENCES paymenttype(id),
-    FOREIGN KEY (student_id) REFERENCES student(id)
+    CONSTRAINT payment_typeid FOREIGN KEY(type_id) REFERENCES paymenttype(id) ON DELETE CASCADE ,
+    CONSTRAINT payment_studentid FOREIGN KEY (student_id) REFERENCES student(id) ON DELETE CASCADE
 );
 
 

@@ -18,7 +18,7 @@ INSERT INTO student (name, birthday, groupnumber) VALUES ('John', '1993-07-03', 
 
 INSERT INTO subject (name, grade) VALUES ('Art', 1);
 INSERT INTO subject (name, grade) VALUES ('Music', 1);
-INSERT INTO subject (name, grade) VALUES ('Geography ', 2);
+INSERT INTO subject (name, grade) VALUES ('Geography', 2);
 INSERT INTO subject (name, grade) VALUES ('History', 2);
 INSERT INTO subject (name, grade) VALUES ('PE', 3);
 INSERT INTO subject (name, grade) VALUES ('Math', 3);
@@ -47,6 +47,8 @@ INSERT INTO mark (student_id, subject_id, mark) VALUES (4, 4, 5);
 INSERT INTO mark (student_id, subject_id, mark) VALUES (5, 3, 9);
 INSERT INTO mark (student_id, subject_id, mark) VALUES (8, 6, 4);
 INSERT INTO mark (student_id, subject_id, mark) VALUES (9, 5, 9);
+
+
 
 
 
