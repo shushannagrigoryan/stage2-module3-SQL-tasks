@@ -4,7 +4,7 @@ DELETE FROM student WHERE id IN (SELECT s.id FROM (SELECT * FROM student) AS s J
 
 DELETE FROM paymenttype WHERE name = 'DAILY';
 
-DELETE FROM mark WHERE mark < 7;
+DELETE FROM mark WHERE mark.mark < 7;
 
 
 
