@@ -7,3 +7,6 @@ SELECT AVG(mark) FROM mark JOIN subject ON mark.subject_id = subject.id WHERE su
 SELECT MIN(amount) FROM payment JOIN paymenttype ON payment.type_id = paymenttype.id WHERE paymenttype.name = 'WEEKLY';
 
 
+
+
+

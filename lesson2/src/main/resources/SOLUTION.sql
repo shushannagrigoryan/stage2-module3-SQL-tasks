@@ -59,3 +59,5 @@ INSERT INTO mark (student_id, subject_id, mark) VALUES (9, 5, 9);
 
 
 
+
+

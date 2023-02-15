@@ -4,3 +4,6 @@ SELECT student.* FROM student JOIN  payment ON student.id = payment.student_id G
 
 
 
+
+
+

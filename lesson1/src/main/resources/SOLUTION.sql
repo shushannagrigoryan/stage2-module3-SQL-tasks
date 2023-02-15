@@ -19,8 +19,8 @@ CREATE TABLE mark
     student_id BIGINT,
     subject_id BIGINT,
     mark INT NOT NULL,
-    CONSTRAINT mark_studentid FOREIGN KEY(student_id) REFERENCES student(id),
-    CONSTRAINT  mark_subjectid FOREIGN KEY(subject_id) REFERENCES subject(id)
+    FOREIGN KEY(student_id) REFERENCES student(id),
+    FOREIGN KEY(subject_id) REFERENCES subject(id)
 );
 
 CREATE TABLE paymenttype
@@ -36,8 +36,8 @@ CREATE TABLE payment
     amount decimal NOT NULL,
     payment_date TIMESTAMP  NOT NULL,
     student_id BIGINT NOT NULL,
-    CONSTRAINT payment_typeid FOREIGN KEY(type_id) REFERENCES paymenttype(id),
-    CONSTRAINT payment_studentid FOREIGN KEY (student_id) REFERENCES student(id)
+    FOREIGN KEY(type_id) REFERENCES paymenttype(id),
+    FOREIGN KEY (student_id) REFERENCES student(id)
 );
 
 
